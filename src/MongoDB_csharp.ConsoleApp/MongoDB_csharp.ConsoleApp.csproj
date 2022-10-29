@@ -1,14 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\MongoDB_csharp.Logic\MongoDB_csharp.Logic.csproj" />
+    <ProjectReference Include="..\MongoDB_csharp.Logic\MongoDB_csharp.Logic.csproj"/>
+    <ProjectReference Include="..\MongoDB_csharp.Interfaces\MongoDB_csharp.Interfaces.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+  </ItemGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
 </Project>
