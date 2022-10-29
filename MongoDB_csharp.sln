@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFB97C7F-F6E2-4BCA-97F5-5C8A0965238B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB_csharp.ConsoleApp", "src\MongoDB_csharp.ConsoleApp\MongoDB_csharp.ConsoleApp.csproj", "{7F228638-C168-4553-BD37-D2A44AE3BE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB_csharp.Logic", "src\MongoDB_csharp.Logic\MongoDB_csharp.Logic.csproj", "{B0255F8B-CD5F-4FA0-9EAC-5A6F6C957CC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F228638-C168-4553-BD37-D2A44AE3BE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F228638-C168-4553-BD37-D2A44AE3BE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F228638-C168-4553-BD37-D2A44AE3BE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F228638-C168-4553-BD37-D2A44AE3BE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0255F8B-CD5F-4FA0-9EAC-5A6F6C957CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0255F8B-CD5F-4FA0-9EAC-5A6F6C957CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0255F8B-CD5F-4FA0-9EAC-5A6F6C957CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0255F8B-CD5F-4FA0-9EAC-5A6F6C957CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F228638-C168-4553-BD37-D2A44AE3BE67} = {CFB97C7F-F6E2-4BCA-97F5-5C8A0965238B}
+		{B0255F8B-CD5F-4FA0-9EAC-5A6F6C957CC9} = {CFB97C7F-F6E2-4BCA-97F5-5C8A0965238B}
+	EndGlobalSection
+EndGlobal
